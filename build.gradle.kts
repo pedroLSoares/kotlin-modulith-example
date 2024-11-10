@@ -32,6 +32,8 @@ dependencies {
 	testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
 	testImplementation("org.springframework.modulith:spring-modulith-starter-test")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm")
+	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
 }
 
 dependencyManagement {
